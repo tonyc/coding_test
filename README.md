@@ -7,8 +7,6 @@ In this exercise, we will be making HTTP requests to parse JSON. You may use any
 
 In this repository, you will find a file, `api.rb`, which has a URL. Build upon this file to make an HTTP request to the URL and parse the response body.
 
-You may use any gems you like - feel free to add them to the Gemfile included in this repo.
-
 1. Make an HTTP request to the URL. Display the latitude, longitude, and latest weather_code, temperature_2m, surface pressure, and windspeed.
 
 2. Numeric weather codes aren't useful. Use this table of values to convert the numeric weather code to a description, and add it to the output.
