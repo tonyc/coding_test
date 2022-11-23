@@ -3,7 +3,7 @@
 
 The goal of this coding exercise is to learn how you work and develop as a software engineer.
 
-In this exercise, you will be making HTTP requests to parse JSON. You may use any gems you like. Things to consider would be code organization, modularity, and also possibly testing.
+In this exercise, you will be making HTTP requests to parse JSON. You may use any gems you like. Things to consider could include code organization, modularity, and testing.
 
 In this repository, you will find a file, `api.rb`, which has a URL. Build upon this file to make an HTTP request to the URL and parse the response body.
 
