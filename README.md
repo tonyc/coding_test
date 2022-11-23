@@ -5,6 +5,10 @@ The goal of this coding exercise is to learn how you work and develop as a softw
 
 In this exercise, you will be making HTTP requests to parse JSON. You may use any gems you like. Things to consider could include code organization, modularity, and testing.
 
+The API URL is:
+
+    https://api.open-meteo.com/v1/forecast?latitude=44.52&longitude=-93.67&hourly=temperature_2m,weathercode,surface_pressure,windspeed_10m,winddirection_10m&daily=sunrise,sunset&temperature_unit=fahrenheit&windspeed_unit=mph&precipitation_unit=inch&timezone=America%2FChicago&past_days=5
+
 In this repository, you will find a file, `api.rb`, which has a URL. Build upon this file to make an HTTP request to the URL and parse the response body.
 
 1. Make an HTTP request to the URL. Display the latitude, longitude, and latest weather_code, temperature_2m, surface pressure, and windspeed.
