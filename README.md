@@ -40,7 +40,7 @@ In this repository, you will find a file, `api.rb`, which has a URL. Build upon 
         96: Thunderstorm w/light hail
         99: Thunderstorm w/heavy hail
 
-3. Add today's sunrise and sunset time to the output.
+3. Add the ability to display the current day's sunrise and sunset time to the output.
 
 4. A wind direction in degrees is also not always useful - write some code to convert the current wind direction degrees returned into cardinal directions, i.e. N, NE, E, SE, S, SW, W, NW, and add it to the output.
    Hint: Consider a range of values around each "side" of the direction, e.g. NE is not just exactly 45 degrees.
